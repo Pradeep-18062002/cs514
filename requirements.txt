@@ -1,0 +1,5 @@
+torch>=2.2
+openai>=1.0
+huggingface-hub>=0.20
+datasets>=2.18
+tqdm>=4.66

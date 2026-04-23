@@ -1,0 +1,16 @@
+# large data — do not commit
+subgraphrag_data/
+hf_cache/
+
+# secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pth
+
+# results (optional — commit if you want them in the repo)
+# results_webqsp.json
+# results_no_retrieval.json

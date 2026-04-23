@@ -1,0 +1,530 @@
+{
+  "config": {
+    "model": "gpt-4o-mini",
+    "mode": "no_retrieval",
+    "sample_size": 30,
+    "seed": 42,
+    "api_errors": 0
+  },
+  "per_question": [
+    {
+      "id": "WebQTest-1800",
+      "question": "what year was first world series",
+      "gold": [
+        "1903 world series"
+      ],
+      "predicted": [
+        "1903"
+      ],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "ans: 1903"
+    },
+    {
+      "id": "WebQTest-586",
+      "question": "what type of cancer did larry hagman have",
+      "gold": [
+        "leukemia",
+        "head and neck cancer"
+      ],
+      "predicted": [],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "Larry Hagman was diagnosed with liver cancer."
+    },
+    {
+      "id": "WebQTest-1982",
+      "question": "what type of music did vivaldi compose",
+      "gold": [
+        "classical music",
+        "baroque music"
+      ],
+      "predicted": [
+        "classical music",
+        "baroque music"
+      ],
+      "f1": 1.0,
+      "hit": 1,
+      "llm_response": "ans: Classical music\nans: Baroque music"
+    },
+    {
+      "id": "WebQTest-938",
+      "question": "who was queen elizabeth ii mom",
+      "gold": [
+        "queen elizabeth the queen mother"
+      ],
+      "predicted": [
+        "queen elizabeth the queen mother"
+      ],
+      "f1": 1.0,
+      "hit": 1,
+      "llm_response": "ans: Queen Elizabeth The Queen Mother"
+    },
+    {
+      "id": "WebQTest-197",
+      "question": "what places make up new england",
+      "gold": [
+        "new hampshire",
+        "connecticut",
+        "maine",
+        "massachusetts",
+        "rhode island",
+        "vermont"
+      ],
+      "predicted": [
+        "connecticut",
+        "maine",
+        "massachusetts",
+        "new hampshire",
+        "rhode island",
+        "vermont"
+      ],
+      "f1": 1.0,
+      "hit": 1,
+      "llm_response": "ans: Connecticut  \nans: Maine  \nans: Massachusetts  \nans: New Hampshire  \nans: Rhode Island  \nans: Vermont"
+    },
+    {
+      "id": "WebQTest-1943",
+      "question": "who founded the afl",
+      "gold": [
+        "bud adams",
+        "lamar hunt"
+      ],
+      "predicted": [
+        "lamar hunt"
+      ],
+      "f1": 0.6666666666666666,
+      "hit": 1,
+      "llm_response": "The American Football League (AFL) was founded by a group of individuals, primarily led by Lamar Hunt. \nans: Lamar Hunt"
+    },
+    {
+      "id": "WebQTest-1836",
+      "question": "where laura ingalls wilder lived",
+      "gold": [
+        "mansfield",
+        "de smet",
+        "walnut grove",
+        "pepin",
+        "kansas",
+        "burr oak"
+      ],
+      "predicted": [
+        "walnut grove, minnesota",
+        "de smet, south dakota",
+        "mansfield, missouri"
+      ],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "ans: Walnut Grove, Minnesota  \nans: De Smet, South Dakota  \nans: Mansfield, Missouri  "
+    },
+    {
+      "id": "WebQTest-399",
+      "question": "what disease does robin roberts have",
+      "gold": [
+        "breast cancer",
+        "myelodysplastic syndrome"
+      ],
+      "predicted": [],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "Robin Roberts has been diagnosed with myelodysplastic syndrome (MDS), a type of blood cancer. Additionally, she is a breast cancer survivor."
+    },
+    {
+      "id": "WebQTest-1557",
+      "question": "where do florida panthers play",
+      "gold": [
+        "miami arena",
+        "bb&t center"
+      ],
+      "predicted": [
+        "fla live arena"
+      ],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "ans: FLA Live Arena"
+    },
+    {
+      "id": "WebQTest-695",
+      "question": "what role did paul mccartney play in the beatles",
+      "gold": [
+        "bass",
+        "backing vocalist",
+        "lead vocals"
+      ],
+      "predicted": [
+        "paul mccartney was a vocalist and bassist in the beatles.",
+        "he was also a songwriter and contributed to the band's music and lyrics.",
+        "mccartney played a significant role in the band's creative direction and was one of the primary members alongside john lennon."
+      ],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "ans: Paul McCartney was a vocalist and bassist in The Beatles.  \nans: He was also a songwriter and contributed to the band's music and lyrics.  \nans: McCartney played a significant role in the band's creative direction and was one of the primary members alongside John Lennon."
+    },
+    {
+      "id": "WebQTest-1889",
+      "question": "who was vice president with bill clinton",
+      "gold": [
+        "al gore"
+      ],
+      "predicted": [
+        "al gore"
+      ],
+      "f1": 1.0,
+      "hit": 1,
+      "llm_response": "ans: Al Gore"
+    },
+    {
+      "id": "WebQTest-361",
+      "question": "what to do and see in vienna austria",
+      "gold": [
+        "liechtenstein museum",
+        "prater",
+        "sch\u00f6nbrunn palace",
+        "schottenkirche, vienna",
+        "vienna state opera",
+        "millennium tower",
+        "jesuit church, vienna",
+        "vienna observatory",
+        "minoritenkirche",
+        "karlskirche, vienna",
+        "capuchin church, vienna",
+        "albertina",
+        "hofburg palace",
+        "naturhistorisches museum",
+        "vienna international centre",
+        "imperial crypt",
+        "rathaus, vienna",
+        "museum of military history, vienna",
+        "leopold museum",
+        "st. stephen's cathedral, vienna",
+        "st. peter's church",
+        "mumok",
+        "rock im park",
+        "schloss hof",
+        "kunsthistorisches museum",
+        "sigmund freud museum",
+        "haus der musik",
+        "augustinian church, vienna",
+        "belvedere, vienna"
+      ],
+      "predicted": [
+        "visit the sch\u00f6nbrunn palace and its beautiful gardens.",
+        "explore the historic center of vienna, a unesco world heritage site.",
+        "enjoy the art collections at the kunsthistorisches museum.",
+        "take a stroll through the belvedere palace and its gardens.",
+        "experience the vienna state opera and catch a performance.",
+        "visit st. stephen's cathedral and climb the tower for a panoramic view.",
+        "relax in the stadtpark and see the famous johann strauss statue.",
+        "discover the history at the hofburg palace and the imperial apartments.",
+        "enjoy a coffee and pastry at a traditional viennese caf\u00e9.",
+        "visit the museumsquartier for contemporary art and culture."
+      ],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "ans: Visit the Sch\u00f6nbrunn Palace and its beautiful gardens.\nans: Explore the historic center of Vienna, a UNESCO World Heritage site.\nans: Enjoy the art collections at the Kunsthistorisches Museum.\nans: Take a stroll through the Belvedere Palace and its gardens.\nans: Experience the Vienna State Opera and catch a performance.\nans: Visit St. Stephen's Cathedral and climb the tower for a panoramic view.\nans: Relax in the Stadtpark and see the famous Johann Strauss statue.\nans: Discover the history at the Hofburg Palace and the Imperial Apartments.\nans: Enjoy a coffee and pastry at a traditional Viennese caf\u00e9.\nans: Visit the MuseumsQuartier for contemporary art and culture."
+    },
+    {
+      "id": "WebQTest-71",
+      "question": "who did michael j fox marry",
+      "gold": [
+        "tracy pollan"
+      ],
+      "predicted": [
+        "tracy pollan"
+      ],
+      "f1": 1.0,
+      "hit": 1,
+      "llm_response": "ans: Tracy Pollan"
+    },
+    {
+      "id": "WebQTest-318",
+      "question": "what is the money of switzerland called",
+      "gold": [
+        "swiss franc"
+      ],
+      "predicted": [
+        "swiss franc"
+      ],
+      "f1": 1.0,
+      "hit": 1,
+      "llm_response": "ans: Swiss Franc"
+    },
+    {
+      "id": "WebQTest-758",
+      "question": "who is the governor of indiana 2009",
+      "gold": [
+        "mitch daniels"
+      ],
+      "predicted": [
+        "mitch daniels"
+      ],
+      "f1": 1.0,
+      "hit": 1,
+      "llm_response": "ans: Mitch Daniels"
+    },
+    {
+      "id": "WebQTest-1510",
+      "question": "what are staffordshire terriers",
+      "gold": [
+        "dog"
+      ],
+      "predicted": [],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "Staffordshire Terriers are a breed of dog known for their strength, loyalty, and affectionate nature. They are often characterized by their muscular build, short coat, and distinctive broad head. Staffordshire Terriers are known for being good family pets and are typically friendly and playful. They require regular exercise and socialization to thrive. There are two main types: the American Staffordshire Terrier and the Staffordshire Bull Terrier, each with its own specific traits and characteristics."
+    },
+    {
+      "id": "WebQTest-1542",
+      "question": "what school does james franco go to",
+      "gold": [
+        "rhode island school of design",
+        "palo alto high school",
+        "warren wilson college",
+        "tisch school of the arts",
+        "university of california, los angeles",
+        "columbia university school of the arts",
+        "university yale",
+        "brooklyn college"
+      ],
+      "predicted": [
+        "james franco attended the university of california, los angeles (ucla).",
+        "he also attended columbia university for his mfa."
+      ],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "ans: James Franco attended the University of California, Los Angeles (UCLA).  \nans: He also attended Columbia University for his MFA."
+    },
+    {
+      "id": "WebQTest-686",
+      "question": "when the atlanta braves won the world series",
+      "gold": [
+        "1995 world series"
+      ],
+      "predicted": [
+        "1995",
+        "2021"
+      ],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "The triplets provided do not contain information about the Atlanta Braves or their World Series victories. Therefore, I cannot provide an answer based on the given data. However, historically, the Atlanta Braves won the World Series in the following years:\nans: 1995\nans: 2021"
+    },
+    {
+      "id": "WebQTest-1038",
+      "question": "who was wesley snipes",
+      "gold": [
+        "actor",
+        "businessperson",
+        "dancer",
+        "film producer",
+        "singer",
+        "martial artist"
+      ],
+      "predicted": [],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "Wesley Snipes is an American actor, film producer, and martial artist. He is best known for his roles in films such as \"Blade,\" \"White Men Can't Jump,\" and \"New Jack City.\" Snipes gained fame in the 1990s and has been recognized for his contributions to action and drama films. In addition to his acting career, he has also been involved in various philanthropic efforts and has faced legal issues related to tax evasion."
+    },
+    {
+      "id": "WebQTest-983",
+      "question": "where did tennessee williams go to college",
+      "gold": [
+        "university of missouri",
+        "the new school",
+        "washington university in st. louis",
+        "university of iowa"
+      ],
+      "predicted": [
+        "university of missouri"
+      ],
+      "f1": 0.4,
+      "hit": 1,
+      "llm_response": "ans: University of Missouri"
+    },
+    {
+      "id": "WebQTest-557",
+      "question": "what government did the roman empire have",
+      "gold": [
+        "autocracy"
+      ],
+      "predicted": [
+        "the roman empire had a form of government known as a republic before transitioning to an autocratic system under emperors.",
+        "the government structure included a senate, consuls, and later, emperors who held significant power.",
+        "the roman empire was characterized by centralized authority, especially during the imperial period."
+      ],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "ans: The Roman Empire had a form of government known as a republic before transitioning to an autocratic system under emperors. \nans: The government structure included a Senate, consuls, and later, emperors who held significant power. \nans: The Roman Empire was characterized by centralized authority, especially during the imperial period."
+    },
+    {
+      "id": "WebQTest-748",
+      "question": "what is the zip code for schenectady new york",
+      "gold": [
+        "12305",
+        "12303",
+        "12308",
+        "12345",
+        "12309",
+        "12304",
+        "12325",
+        "12301",
+        "12307",
+        "12306",
+        "12302"
+      ],
+      "predicted": [],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "The zip code for Schenectady, New York is 12301."
+    },
+    {
+      "id": "WebQTest-282",
+      "question": "which countries share a border with russia",
+      "gold": [
+        "latvia",
+        "mongolia",
+        "azerbaijan",
+        "ukraine",
+        "estonia",
+        "north korea",
+        "lithuania",
+        "kazakhstan",
+        "china",
+        "georgia",
+        "belarus",
+        "norway",
+        "finland",
+        "poland"
+      ],
+      "predicted": [
+        "norway",
+        "finland",
+        "estonia",
+        "latvia",
+        "lithuania",
+        "poland",
+        "belarus",
+        "ukraine",
+        "georgia",
+        "azerbaijan",
+        "kazakhstan",
+        "china",
+        "mongolia",
+        "north korea"
+      ],
+      "f1": 1.0,
+      "hit": 1,
+      "llm_response": "ans: Norway  \nans: Finland  \nans: Estonia  \nans: Latvia  \nans: Lithuania  \nans: Poland  \nans: Belarus  \nans: Ukraine  \nans: Georgia  \nans: Azerbaijan  \nans: Kazakhstan  \nans: China  \nans: Mongolia  \nans: North Korea  "
+    },
+    {
+      "id": "WebQTest-1768",
+      "question": "what are the official languages of argentina",
+      "gold": [
+        "spanish language"
+      ],
+      "predicted": [
+        "spanish"
+      ],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "ans: Spanish"
+    },
+    {
+      "id": "WebQTest-1991",
+      "question": "what part of the country is ohio in",
+      "gold": [
+        "midwestern united states",
+        "east north central states"
+      ],
+      "predicted": [
+        "ohio is in the midwestern region of the united states."
+      ],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "ans: Ohio is in the Midwestern region of the United States."
+    },
+    {
+      "id": "WebQTest-612",
+      "question": "who does jeremy shockey play for in 2012",
+      "gold": [
+        "carolina panthers"
+      ],
+      "predicted": [],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "The triplets provided do not contain information about Jeremy Shockey or the team he played for in 2012. Therefore, I cannot provide an answer based on the given data. However, based on my knowledge, Jeremy Shockey played for the Carolina Panthers in 2012."
+    },
+    {
+      "id": "WebQTest-443",
+      "question": "what county is texarkana arkansas in",
+      "gold": [
+        "miller county"
+      ],
+      "predicted": [
+        "miller county"
+      ],
+      "f1": 1.0,
+      "hit": 1,
+      "llm_response": "ans: Miller County"
+    },
+    {
+      "id": "WebQTest-1381",
+      "question": "what is the zip code for princeton nj",
+      "gold": [
+        "08540",
+        "08542-4511",
+        "08543",
+        "08541",
+        "08544",
+        "08540-6449",
+        "08542"
+      ],
+      "predicted": [],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "The zip code for Princeton, NJ is 08540."
+    },
+    {
+      "id": "WebQTest-876",
+      "question": "who does japan import from",
+      "gold": [
+        "sudan",
+        "canada",
+        "united states of america",
+        "tanzania",
+        "new zealand",
+        "kiribati"
+      ],
+      "predicted": [
+        "crude oil (primarily from the middle east)",
+        "natural gas (from countries like australia and qatar)",
+        "electronics and machinery (from countries like china and the united states)",
+        "food products (from countries like the united states, australia, and china)",
+        "pharmaceuticals (from countries like switzerland and the united states)"
+      ],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "The question is quite broad, but generally, Japan imports a variety of goods from several countries. Here are some key imports:\n\nans: Crude oil (primarily from the Middle East)\nans: Natural gas (from countries like Australia and Qatar)\nans: Electronics and machinery (from countries like China and the United States)\nans: Food products (from countries like the United States, Australia, and China)\nans: Pharmaceuticals (from countries like Switzerland and the United States)"
+    },
+    {
+      "id": "WebQTest-1543",
+      "question": "what is samuel langhorne clemens well known for",
+      "gold": [
+        "author",
+        "writer",
+        "journalist",
+        "teacher",
+        "humorist",
+        "novelist"
+      ],
+      "predicted": [
+        "samuel langhorne clemens is well known for being the real name of the famous american author mark twain.",
+        "he is renowned for his novels, particularly \"the adventures of tom sawyer\" and \"adventures of huckleberry finn.\"",
+        "twain is also recognized for his wit, humor, and social commentary on american society during the 19th century.",
+        "he is considered one of the greatest american writers and a key figure in american literature."
+      ],
+      "f1": 0.0,
+      "hit": 0,
+      "llm_response": "ans: Samuel Langhorne Clemens is well known for being the real name of the famous American author Mark Twain.  \nans: He is renowned for his novels, particularly \"The Adventures of Tom Sawyer\" and \"Adventures of Huckleberry Finn.\"  \nans: Twain is also recognized for his wit, humor, and social commentary on American society during the 19th century.  \nans: He is considered one of the greatest American writers and a key figure in American literature."
+    }
+  ]
+}
